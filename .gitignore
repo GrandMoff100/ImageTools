@@ -163,4 +163,5 @@ cython_debug/
 .replit
 .config/
 .upm/
-.replit.nix
+replit.nix
+.breakpoints
