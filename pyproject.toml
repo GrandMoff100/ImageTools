@@ -1,13 +1,16 @@
 [tool.poetry]
 name = "ImageTools"
 version = "0.1.0"
-description = "A comprehensive library for image operations."
+description = "A (growing) comprehensive library for image operations, implemented from the ground up."
 authors = ["Nate Larsen <nlarsen23.student@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.9"
-opencv-contrib-python-headless = "^4.6.0"
-Pillow = "^9.3.0"
+numpy = "^1.24.1"
+
+[tool.poetry.group.dev.dependencies]
+opencv-contrib-python-headless = "^4.6.0.66"
+pillow = "^9.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
